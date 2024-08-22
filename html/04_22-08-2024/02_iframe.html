@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- 
+        <frame> and <frameset> = dreprecated 
+        iframe = inline frame
+    -->
+    <iframe src="01_listExample.html" frameborder="10"></iframe>
+
+    <br><br>
+
+    <a href="img.jpg" target="myframe">Click to Open Image</a>
+    <a href="01_listExample.html" target="myframe">Open List Example</a>
+    <br><br>
+
+    <iframe src="" name="myframe" frameborder="10" height="400px" width="500px"></iframe>
+
+    <!-- iframe use : google map  -->
+    <!-- open map => search/select location => share => embed map -->
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3720.271195481427!2d72.82270317401387!3d21.181383082521354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04e6a2dc2a1ff%3A0x2484cfbc648e158f!2sJeevandip%20Complex!5e0!3m2!1sen!2sin!4v1724305218788!5m2!1sen!2sin"
+        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <!-- youtube video -->
+    <!-- open video => share => embed -->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/B0E2esA5nQo?si=2vjrVqhbYEdcVy2x"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+
+</html>

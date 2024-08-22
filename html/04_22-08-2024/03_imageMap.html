@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- 
+        apply link on image shape
+        use : <map> and <area>
+    -->
+    <img src="image.jpg" alt="" usemap="#imagemap">
+
+    <!-- depend tag -->
+    <map name="imagemap">
+        <!-- total 4 point(coords) -->
+        <area shape="rect" coords="66,10,333,369" href="img.jpg" alt="" target="_blank">
+
+        <!-- total 3 coords 
+            x1=486 y1=250 x2=534 
+            r = x2-x1 = 534-486 = 48
+        -->
+        <area shape="circle" coords="486,250,48" href="02_iframe.html" alt="" target="_blank">
+
+        <area shape="poly"
+            coords="137,470,178,466,272,458,273,504,275,526,280,562,207,562,138,575,141,551,145,542,142,528,"
+            href="table.jpg" alt="" target="_blank">
+    </map>
+</body>
+
+</html>l
