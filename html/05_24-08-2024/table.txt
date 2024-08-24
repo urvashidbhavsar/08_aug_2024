@@ -1,0 +1,34 @@
+1. for create table => <table> 
+
+2. for create a row (table row) => <tr> 
+
+3. for set a table data => <td> 
+
+4. for give table heading in column => <th> 
+
+5. for give table title => <caption> 
+
+6. for set table body => <tbody> 
+
+7. for table heading => <thead>
+
+8. for table footer => <tfoot>
+
+9. for give a space between text/content and border => cellpadding 
+
+10. for give a space between cells => cellspacing 
+
+11. for set single border of table => rules = all 
+
+12. when we set rules all cellspacing not effected.
+
+13. for apply style on column use => <colgroup> and <col>
+
+14. for merge a cell use rowspan and colspan attribute.
+
+15. both attribute apply in <td> or <th> tag.
+
+16. when we use rowspan remove cells from next row. 
+
+17. when we use colspan remove cells from that effeced row.
+ 
