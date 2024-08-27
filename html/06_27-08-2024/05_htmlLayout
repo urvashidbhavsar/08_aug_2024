@@ -1,0 +1,20 @@
+as per layout 2 type of tag : 
+
+1. sementic tag 
+     - which is tell about it self.
+     for ex, <p>, <b>, <picture>
+
+2. non-sementic tag 
+    - which cant tell about it self.
+    for ex, <div> and <span>
+
+for create layout used :
+
+header, 
+footer, 
+section,
+div,
+aside,
+article,
+main,
+nav etc..
